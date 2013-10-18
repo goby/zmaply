@@ -42,10 +42,10 @@ public:
   int getInt();
   /// Return a double from the current row
   double getDouble();        
-  /// Return an NSString from the current row
+  /// Return an std::string from the current row
   std::string *getString();
   /// Return a boolean from the current row
-  BOOL getBool();
+  bool getBool();
   /// Return a blob from the current row
   Blob *getBlob();
         
