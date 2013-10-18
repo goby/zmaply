@@ -62,8 +62,8 @@ protected:
 class StatementWriter
 {
 public:
-  StatementWrite(sqlite3 *db,const char *);
-  ~StatementWrite();
+  StatementWriter(sqlite3 *db,const char *);
+  ~StatementWriter();
   
   /// Run the insert/update.
   /// Triggers an exception on failure
